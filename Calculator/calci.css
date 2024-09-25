@@ -1,0 +1,87 @@
+ *{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+ }
+ body{
+    background-color: rgb(63, 60, 60);
+}
+
+.head{
+    font-size: 90px;
+    z-index: -1;
+    text-align: center;
+    font-weight: 700;
+    color: aquamarine;
+    
+}
+.vk{
+    height: 500px;
+    width: 300px;
+    background-color: black;
+    margin-left: 500px  ;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px 0px aquamarine ;
+    margin: 50px auto 0;
+    z-index: 0;
+    padding: 10px;
+    border: 2px solid aquamarine;
+    margin-top: 0px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 9px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.buttons input{
+    width: 65px;
+    height: 50px;
+    border-radius: 9px;
+    color: white;
+    border: none;
+    border: .1px solid  aqua;
+    background-color: black;
+     box-shadow: 0px 2px 5px 0px rgba(255,255,255,0.4);
+     font-size: 25px;
+     color: wheat;
+}
+
+.buttons input:hover{
+    border: 1px solid  rgba(255,255,255,0.4);
+}
+
+.buttons .color{
+    color: aqua;
+    font-size: 25px;
+}
+
+.buttons .c{
+  width: 145px;
+  background-color: orangered;
+  color: white;
+}
+
+.display{
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.display input{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    text-align: right;
+    border: none;
+    padding-bottom: 10px;
+
+}
